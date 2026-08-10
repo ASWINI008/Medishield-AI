@@ -1,0 +1,52 @@
+{
+  "users": {
+    "validUser": {
+      "name": "Aswin Nair",
+      "email": "aswin@example.com",
+      "password": "securePass123",
+      "role": "patient",
+      "phone": "9876543210"
+    },
+    "invalidUser": {
+      "name": "Invalid User",
+      "email": "bademail.com",
+      "password": "123",
+      "role": "invalid_role",
+      "phone": "000"
+    },
+    "duplicateUser": {
+      "name": "Aswin Nair",
+      "email": "aswin@example.com",
+      "password": "securePass123",
+      "role": "patient",
+      "phone": "9876543210"
+    },
+    "emptyFields": {
+      "name": "",
+      "email": "",
+      "password": "",
+      "role": "patient",
+      "phone": ""
+    }
+  },
+  "medicines": {
+    "sampleAspirin": {
+      "name": "Aspirin",
+      "dosage": "100mg",
+      "frequency": "once",
+      "instructions": "Take after breakfast",
+      "stock": 30,
+      "refillAt": 5,
+      "color": "#2563eb"
+    },
+    "sampleMetformin": {
+      "name": "Metformin",
+      "dosage": "500mg",
+      "frequency": "twice",
+      "instructions": "Take after meals",
+      "stock": 4,
+      "refillAt": 5,
+      "color": "#10b981"
+    }
+  }
+}
