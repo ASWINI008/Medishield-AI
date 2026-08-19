@@ -63,14 +63,14 @@ jobs:
 
     - name: Upload Extent Reports Artifact
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: extents-automation-reports
         path: reports/
 
     - name: Upload JaCoCo Coverage Report
       if: always()
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: jacoco-coverage-report
         path: target/site/jacoco/
